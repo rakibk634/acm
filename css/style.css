@@ -1,0 +1,411 @@
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Light;
+  src: url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Cardo-Regular;
+  src: url(../fonts/Cardo-Regular.ttf);
+}
+
+/* Common start */
+
+body {
+  font-family: Raleway-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  color: #6c7279;
+}
+
+/* Common end */
+
+/* Header start */
+
+header {
+  padding: 40px 0;
+  background-color: #00000000;
+  position: absolute;
+  width: 100%;
+}
+
+.mmenu {
+  background-color: #e84545 !important;
+  border-radius: 0;
+  border: none !important;
+}
+
+.menu {
+  /* border: 1px red solid; */
+}
+
+.menu ul {
+}
+
+.menu ul li {
+}
+
+.menu ul li a {
+  padding-right: 60px !important;
+  font-family: Raleway-Bold;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff !important;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.menu ul li:last-child a {
+  padding-right: 0 !important;
+}
+
+.menu ul li a:hover {
+  color: #e84545 !important;
+}
+
+/* Header end */
+
+/* Banner start */
+
+.banner {
+  background-image: url(../Images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b_text {
+  margin: 255px 0 155px;
+  text-align: center;
+}
+
+.b_text h1 {
+  font-family: openSans-Bold;
+  font-size: 65px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.b_text p {
+  margin: 45px 0 80px;
+  font-family: Raleway-Regular;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.b_text a {
+  padding: 15px 50px;
+  font-family: Raleway-SemiBold;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #e84545;
+  transition: 0.5s;
+}
+
+.b_text a:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+/* Banner end */
+
+/* Feature start */
+
+.features {
+  margin: 125px 0 50px;
+}
+
+.single_fea {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.fea_img {
+  width: 20%;
+}
+
+.single_fea h2 {
+  margin: 30px 0 25px;
+  font-family: Raleway-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2d3033;
+  text-transform: uppercase;
+}
+
+.single_fea p {
+  margin-bottom: 75px;
+  font-family: Raleway-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  color: #6c7279;
+}
+
+/* Feature end */
+
+/* work start */
+
+.work {
+}
+
+.work_img {
+  position: relative;
+  text-align: center;
+}
+
+.work_box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e84545;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.work_box:hover {
+  opacity: 0.9;
+}
+
+.work_box h2 {
+  position: absolute;
+  font-family: Raleway_Regular;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.work_box p {
+  position: absolute;
+  margin-top: 55px;
+  font-family: Raleway_Regular;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* work end */
+
+/* Team start */
+
+.team {
+  margin: 100px 0;
+}
+
+.team_single {
+}
+
+.team_single h2 {
+  margin-top: 25px;
+  font-family: Raleway-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2d3033;
+  text-transform: capitalize;
+}
+
+.team_single h3 {
+  margin-bottom: 15px;
+  font-family: Raleway-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  color: #e84545;
+  text-transform: uppercase;
+}
+
+.team_single p {
+  margin-right: 30px !important;
+  margin-bottom: 25px;
+}
+
+.team_single i {
+  margin-right: 4px;
+  padding: 10px 12px;
+  font-size: 15px;
+  color: #b6b6b6;
+  border: 1px #b6b6b6 solid;
+  transition: 0.5s;
+}
+
+.team_single i:hover {
+  background-color: #e84545;
+  color: #fff;
+  border: 1px #e84545 solid;
+}
+
+/* Team end */
+
+/* Testimonial Start */
+
+.testimonial {
+  background-color: #53354a;
+}
+
+.testi {
+  padding: 105px 250px 75px 81px;
+}
+
+.testk {
+  align-items: center;
+}
+
+.testi_btn {
+}
+
+.testi_btn [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.test_text {
+}
+
+.test_text h3 {
+  font-family: Cardo-Regular;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  font-style: italic;
+}
+
+.test_text p {
+  margin: 37px 0 100px;
+  font-family: Raleway-Bold;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Testimonial end */
+
+/* Downlaod start */
+
+.down {
+  margin: 100px 0;
+}
+.down_text {
+}
+
+.down_text h2 {
+  font-family: Raleway-Light;
+  font-size: 28px;
+  font-weight: 300;
+  color: #2d3033;
+}
+.down_text p {
+  margin: 10px 0 40px;
+  font-family: Raleway-bold;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2d3033;
+}
+
+.buttond {
+  padding: 15px 65px;
+  background-color: #e84545 !important;
+  border: none;
+  border-radius: 2px;
+  font-family: Raleway-SemiBold;
+  font-size: 15px;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: 0.4s;
+}
+
+.buttond:hover {
+  background-color: transparent !important;
+  color: #e84545 !important;
+  border: 1px #e84545 solid;
+}
+
+/* Downlaod end */
+
+/* Footer start */
+
+footer {
+  background-color: #3a3e64;
+  padding: 70px 0 90px;
+}
+
+.location {
+  text-align: center;
+}
+
+.fh {
+  margin-bottom: 22px;
+  font-family: Raleway-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.fp {
+  font-size: 15px;
+  color: #cacaca !important;
+}
+
+.social_f {
+  text-align: center;
+}
+
+.sof_icon a {
+  text-decoration: none;
+}
+
+.sof_icon a i {
+  margin-right: 5px;
+  padding: 10px 12px;
+  font-size: 16px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: 0.4s;
+}
+
+.sof_icon i:hover {
+  background-color: #e84545;
+  color: #fff;
+  border: 1px #e84545 solid;
+}
+
+.f_2 {
+  padding: 30px 0 10px;
+  background-color: #313454;
+}
+
+.fp1 {
+  font-size: 13px;
+  color: #cacaca !important;
+}
+/* Footer end */

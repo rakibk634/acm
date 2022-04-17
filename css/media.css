@@ -1,0 +1,449 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header start */
+
+  .menu {
+    background-color: #e84545;
+    margin: 15px 0 0 0;
+  }
+
+  .menu:hover {
+    border: none;
+  }
+
+  .menu ul li a {
+    font-size: 13px;
+    padding: 15px 0 15px 15px !important;
+  }
+
+  .menu ul li a:hover {
+    background-color: black;
+    color: #e84545 !important;
+  }
+
+  /* Banner strat */
+
+  .b_text {
+    margin: 215px 0 145px;
+  }
+
+  .b_text h1 {
+    font-size: 40px;
+  }
+
+  .b_text p {
+    margin: 35px 0 40px;
+    font-size: 15px;
+  }
+
+  .b_text a {
+    font-size: 12px;
+  }
+
+  /* Work start */
+
+  .work_box h2 {
+    font-size: 18px;
+  }
+
+  .work_box p {
+    font-size: 14;
+  }
+
+  /* Work end */
+
+  /* Team Strat */
+
+  .team {
+    margin: 70px 0 100px;
+  }
+
+  .team_single {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .team_single p {
+    margin-right: 0 !important;
+    margin-bottom: 25px;
+  }
+
+  /* Testimonial Start */
+
+  .testi {
+    padding: 70px 50px 55px 50px;
+  }
+
+  .test_text h3 {
+    font-size: 25px;
+  }
+
+  .test_text p {
+    font-size: 13px;
+  }
+
+  /* Testimonial end */
+
+  /* Downlaod start */
+
+  .down {
+    margin: 60px 0;
+  }
+
+  .down_text h2 {
+    font-size: 20px;
+  }
+
+  .down_text p {
+    font-size: 15px;
+  }
+
+  .buttond {
+    padding: 15px 45px;
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+  }
+
+  /* Downlaod end */
+
+  /* Footer start */
+
+  footer {
+    padding: 50px 0 85px;
+  }
+
+  .location {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .fp {
+    margin: 0 80px;
+    font-size: 15px;
+    color: #cacaca !important;
+  }
+
+  .fp1 {
+    font-size: 10px;
+  }
+
+  /* Footer end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header start */
+
+  .menu {
+    background-color: #e84545;
+    margin: 15px 0 0;
+  }
+
+  .menu:hover {
+    border: none;
+  }
+
+  .menu ul li a {
+    font-size: 13px;
+    padding: 15px 0 15px 15px !important;
+  }
+
+  .menu ul li a:hover {
+    background-color: black;
+    color: #e84545 !important;
+  }
+
+  /* Banner strat */
+
+  .b_text {
+    margin: 215px 0 145px;
+  }
+
+  .b_text h1 {
+    font-size: 40px;
+  }
+
+  .b_text p {
+    margin: 35px 0 40px;
+    font-size: 15px;
+  }
+
+  .b_text a {
+    font-size: 12px;
+  }
+
+  /* Work start */
+
+  .work_box h2 {
+    font-size: 18px;
+  }
+
+  .work_box p {
+    font-size: 14;
+  }
+
+  /* Work end */
+
+  /* Team Strat */
+
+  .team {
+    margin: 70px 0 100px;
+  }
+
+  .team_single {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .team_single p {
+    margin-right: 0 !important;
+    margin-bottom: 25px;
+  }
+
+  /* Testimonial Start */
+
+  .testi {
+    padding: 70px 50px 55px 50px;
+  }
+
+  .test_text h3 {
+    font-size: 25px;
+  }
+
+  .test_text p {
+    font-size: 13px;
+  }
+
+  /* Testimonial end */
+
+  /* Downlaod start */
+
+  .down {
+    margin: 60px 0;
+  }
+
+  .down_text h2 {
+    font-size: 20px;
+  }
+
+  .down_text p {
+    font-size: 15px;
+  }
+
+  .buttond {
+    padding: 15px 45px;
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+  }
+
+  /* Downlaod end */
+
+  /* Footer start */
+
+  footer {
+    padding: 50px 0 85px;
+  }
+
+  .location {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .fp {
+    margin: 0 80px;
+    font-size: 15px;
+    color: #cacaca !important;
+  }
+
+  .fp1 {
+    font-size: 10px;
+  }
+
+  /* Footer end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header start */
+
+  .menu {
+    background-color: #e84545;
+    margin: 15px 0 0 0 !important;
+  }
+
+  .menu:hover {
+    border: none;
+  }
+
+  .menu ul li a {
+    font-size: 14px;
+    padding: 15px 0 15px 15px !important;
+  }
+
+  .menu ul li a:hover {
+    background-color: black;
+    color: #e84545 !important;
+  }
+
+  /* Banner strat */
+
+  .b_text h1 {
+    font-size: 50px;
+  }
+
+  .b_text p {
+    margin: 45px 0 60px;
+    font-size: 18px;
+  }
+
+  .b_text a {
+    font-size: 14px;
+  }
+
+  /* Work start */
+
+  .work_box h2 {
+    font-size: 18px;
+  }
+
+  .work_box p {
+    font-size: 14;
+  }
+
+  /* Work end */
+
+  /* Team Strat */
+
+  .team {
+    margin: 70px 0 100px;
+  }
+
+  .team_single {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .team_single p {
+    margin-right: 0 !important;
+    margin-bottom: 25px;
+  }
+
+  /* Testimonial Start */
+
+  .testi {
+    padding: 85px 80px 65px 80px;
+  }
+
+  .test_text h3 {
+    font-size: 30px;
+  }
+
+  .test_text p {
+    font-size: 13px;
+  }
+
+  /* Testimonial end */
+
+  /* Downlaod start */
+
+  .down {
+    margin: 80px 0;
+  }
+
+  .down_text h2 {
+    font-size: 23px;
+  }
+
+  .down_text p {
+    font-size: 15px;
+  }
+
+  .buttond {
+    padding: 15px 45px;
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+  }
+
+  /* Downlaod end */
+
+  /* Footer start */
+
+  footer {
+    padding: 50px 0 85px;
+  }
+
+  .location {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .fp {
+    margin: 0 120px;
+  }
+
+  .fp1 {
+    font-size: 11px;
+  }
+
+  /* Footer end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Testimonial Start */
+
+  /* .testi {
+    padding: 45px 20px 30px 30px;
+  }
+
+  .test_text h3 {
+    font-size: 20px;
+  }
+
+  .test_text p {
+    margin: 25px 0 65px;
+    font-size: 13px;
+  } */
+
+  /* Testimonial end */
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Testimonial Start */
+
+  /* .testi {
+    padding: 45px 20px 30px 30px;
+  }
+
+  .test_text h3 {
+    font-size: 20px;
+  }
+
+  .test_text p {
+    margin: 25px 0 65px;
+    font-size: 13px;
+  } */
+
+  /* Testimonial end */
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* Testimonial Start */
+
+  /* .testi {
+    padding: 85px 60px 30px 50px;
+  }
+
+  .test_text h3 {
+    font-size: 30px;
+  }
+
+  .test_text p {
+    margin: 25px 0 65px;
+    font-size: 13px;
+  } */
+
+  /* Testimonial end */
+}
